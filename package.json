@@ -1,0 +1,13 @@
+{
+  "name": "discord-oauth-redirect",
+  "version": "1.0.0",
+  "description": "A project for Discord OAuth2 redirect using GitHub Pages and Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build necessary'",
+    "start": "echo 'No start necessary'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
