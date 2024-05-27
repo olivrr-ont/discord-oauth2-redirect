@@ -2,9 +2,9 @@ const fetch = require('node-fetch');
 
 exports.handler = async function(event, context) {
     const code = event.queryStringParameters.code;
-    const CLIENT_ID = 'your_client_id';
-    const CLIENT_SECRET = 'your_client_secret';
-    const REDIRECT_URI = 'https://yourusername.github.io/your-repository-name';
+    const CLIENT_ID = '1244629352801636462';
+    const CLIENT_SECRET = 'MfFMIf_g_MstlUXrBlyTv0Vh3UgmTt4E';
+    const REDIRECT_URI = 'https://olivrr-ont.github.io/discord-oauth2-redirect';
 
     const tokenResponse = await fetch('https://discord.com/api/oauth2/token', {
         method: 'POST',
