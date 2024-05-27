@@ -11,7 +11,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get('code');
         if (code) {
-            window.location.href = `66549ad2d4294d2bb7ae2f35--roboliver.netlify.app/.netlify/functions/callback`;
+            window.location.href = `https://66549ad2d4294d2bb7ae2f35--roboliver.netlify.app/.netlify/functions/callback?code=${code}`;
         } else {
             document.body.innerHTML = '<h1>Error: No code found in query parameters</h1>';
         }
